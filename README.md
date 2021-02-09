@@ -133,7 +133,7 @@ To challenge myself I also made the following extra steps:
 
 * I exported and registered a ONNX model
 
-* I enabled logging the the deployed Web app.
+* I enabled logging in the deployed Web app.
 
   
 
