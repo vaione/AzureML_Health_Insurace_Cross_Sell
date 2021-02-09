@@ -139,7 +139,7 @@ To challenge myself I also made the following extra steps:
 
   #### PIPELINE
 
-  ![experiment1](img\experiment1.png)
+  ![experiment1](img/experiment1.png)
 
   
 
@@ -161,4 +161,5 @@ To challenge myself I also made the following extra steps:
 
 #### ENABLED LOGGING IN THE SCORING SCRIPT
 
-![logs_from_score](img\logs_from_score.png)![Endpoint_logs](img\Endpoint_logs.png)
+![logs_from_score](img\logs_from_score.png)
+![Endpoint_logs](img\Endpoint_logs.png)
