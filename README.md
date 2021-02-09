@@ -91,15 +91,15 @@ The hyperparameters are:
 
 #### BEST HYPERDRIVE MODEL
 
-![hyperdrive_models](C:\Users\Michael\Google Drev\Privat\PROGRAMMERING\PROJECTS\Health_Insurance_Cross_sell\img\hyperdrive_models.png)
+![hyperdrive_models](img\hyperdrive_models.png)
 
-![best_model_ui](C:\Users\Michael\Google Drev\Privat\PROGRAMMERING\PROJECTS\Health_Insurance_Cross_sell\img\best_model_ui.png)
+![best_model_ui](img\best_model_ui.png)
 
 
 
 #### RUN DETAILS
 
-![](C:\Users\Michael\Google Drev\Privat\PROGRAMMERING\PROJECTS\Health_Insurance_Cross_sell\img\Run_details.png)
+![](img\Run_details.png)
 
 
 
@@ -111,9 +111,9 @@ Then I created the AciWebservice, which defines the hardware requirements as wel
 
 I was time to test the published endpoint. I retrieved a key for authorization, selected my test data and sent a Json request to the endpoint with my test data.
 
-![model_deployment](C:\Users\Michael\Google Drev\Privat\PROGRAMMERING\PROJECTS\Health_Insurance_Cross_sell\img\model_deployment.png) 
+![model_deployment](img\model_deployment.png) 
 
-![test_webservice](C:\Users\Michael\Google Drev\Privat\PROGRAMMERING\PROJECTS\Health_Insurance_Cross_sell\img\test_webservice.png)
+![test_webservice](img\test_webservice.png)
 
 
 
@@ -139,26 +139,26 @@ To challenge myself I also made the following extra steps:
 
   #### PIPELINE
 
-  ![experiment1](C:\Users\Michael\Google Drev\Privat\PROGRAMMERING\PROJECTS\Health_Insurance_Cross_sell\img\experiment1.png)
+  ![experiment1](img\experiment1.png)
 
   
 
   #### CUSTOM ENVIROMENT
 
-  ![Custom_env](C:\Users\Michael\Google Drev\Privat\PROGRAMMERING\PROJECTS\Health_Insurance_Cross_sell\img\Custom_env.png)
+  ![Custom_env](img\Custom_env.png)
 
   
 
   #### ONNX MODEL
 
-![onnx_model_sdk](C:\Users\Michael\Google Drev\Privat\PROGRAMMERING\PROJECTS\Health_Insurance_Cross_sell\img\onnx_model_sdk.png)
+![onnx_model_sdk](img\onnx_model_sdk.png)
 
 
 
-![onnx_model_registered](C:\Users\Michael\Google Drev\Privat\PROGRAMMERING\PROJECTS\Health_Insurance_Cross_sell\img\onnx_model_registered.png)
+![onnx_model_registered](img\onnx_model_registered.png)
 
 
 
 #### ENABLED LOGGING IN THE SCORING SCRIPT
 
-![logs_from_score](C:\Users\Michael\Google Drev\Privat\PROGRAMMERING\PROJECTS\Health_Insurance_Cross_sell\img\logs_from_score.png)![Endpoint_logs](C:\Users\Michael\Google Drev\Privat\PROGRAMMERING\PROJECTS\Health_Insurance_Cross_sell\img\Endpoint_logs.png)
+![logs_from_score](img\logs_from_score.png)![Endpoint_logs](img\Endpoint_logs.png)
