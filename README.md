@@ -91,15 +91,15 @@ The hyperparameters are:
 
 #### BEST HYPERDRIVE MODEL
 
-![hyperdrive_models](img\hyperdrive_models.png)
+![hyperdrive_models](img/hyperdrive_models.png)
 
-![best_model_ui](img\best_model_ui.png)
+![best_model_ui](img/best_model_ui.png)
 
 
 
 #### RUN DETAILS
 
-![](img\Run_details.png)
+![](img/Run_details.png)
 
 
 
@@ -111,9 +111,9 @@ Then I created the AciWebservice, which defines the hardware requirements as wel
 
 I was time to test the published endpoint. I retrieved a key for authorization, selected my test data and sent a Json request to the endpoint with my test data.
 
-![model_deployment](img\model_deployment.png) 
+![model_deployment](img/model_deployment.png) 
 
-![test_webservice](img\test_webservice.png)
+![test_webservice](img/test_webservice.png)
 
 
 
@@ -145,21 +145,21 @@ To challenge myself I also made the following extra steps:
 
   #### CUSTOM ENVIROMENT
 
-  ![Custom_env](img\Custom_env.png)
+  ![Custom_env](img/Custom_env.png)
 
   
 
   #### ONNX MODEL
 
-![onnx_model_sdk](img\onnx_model_sdk.png)
+![onnx_model_sdk](img/onnx_model_sdk.png)
 
 
 
-![onnx_model_registered](img\onnx_model_registered.png)
+![onnx_model_registered](img/onnx_model_registered.png)
 
 
 
 #### ENABLED LOGGING IN THE SCORING SCRIPT
 
-![logs_from_score](img\logs_from_score.png)
-![Endpoint_logs](img\Endpoint_logs.png)
+![logs_from_score](img/logs_from_score.png)
+![Endpoint_logs](img/Endpoint_logs.png)
