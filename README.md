@@ -153,7 +153,7 @@ For sampling of the hyperparameter space I choose Baysian sampling as it is more
 Based on experience, the hyperparameters I choose to search over was:
 
 - **Learning rate:** 0.1 and 0.05
-- **n_estimators: ** Between 1200 and 2500 with step size of 200
+- **n_estimators:** Between 1200 and 2500 with step size of 200
 - **Max_depth:** Between 12 and 24 with step size of 2
 - **Subsample:** 0.8 and 0.9
 - **Colsample_bytree:** 0.8 and 0.9
