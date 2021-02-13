@@ -169,7 +169,7 @@ The best performing model has an accuracy of 90.57%.
 The hyperparameters are:
 
 - **Learning rate:** 0.05
-- **n_estimators: ** 1800
+- **n_estimators:** 1800
 - **Max_depth:** 24
 - **Subsample:** 0.9
 - **Colsample_bytree:** 0.9
