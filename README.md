@@ -6,7 +6,31 @@
 
 ## Table of contents
 
-[toc]
+- [Table of contents](#table-of-contents)
+- [Overview](#overview)
+    + [Architecture](#architecture)
+    + [Dataset](#dataset)
+    + [Task](#task)
+    + [Access](#access)
+- [Project Set Up and Installation](#project-set-up-and-installation)
+- [Automated ML](#automated-ml)
+    + [Run-details](#run-details)
+    + [Results](#results)
+    + [Best AutoML Model](#best-automl-model)
+- [Hyperdrive / XGBoost model](#hyperdrive---xgboost-model)
+    + [XGBoost](#xgboost)
+    + [Run-details](#run-details-1)
+    + [Results](#results-1)
+    + [Best hyperdrive model](#best-hyperdrive-model)
+- [Model Deployment](#model-deployment)
+- [Screen Recording](#screen-recording)
+- [Standout tasks done](#standout-tasks-done)
+    + [Using Pipeline](#using-pipeline)
+    + [Custom environment](#custom-environment)
+    + [ONNX model](#onnx-model)
+    + [Enabled logging in the scoring script](#enabled-logging-in-the-scoring-script)
+- [Future Improvements](#future-improvements)
+
 
 ## Overview
 
