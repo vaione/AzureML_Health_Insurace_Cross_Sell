@@ -221,23 +221,23 @@ To challenge myself I also made the following extra steps:
 
 #### Using Pipeline
 
-![experiment1](img\experiment1.png)
+![experiment1](img/experiment1.png)
 
 
 
 #### Custom environment
 
-![Custom_env](img\Custom_env.png)
+![Custom_env](img/Custom_env.png)
 
 
 
 #### ONNX model
 
-![onnx_model_sdk](img\onnx_model_sdk.png)
+![onnx_model_sdk](img/onnx_model_sdk.png)
 
 
 
-![onnx_model_registered](img\onnx_model_registered.png)
+![onnx_model_registered](img/onnx_model_registered.png)
 
 
 
@@ -245,7 +245,7 @@ To challenge myself I also made the following extra steps:
 
 `deployment_config = AciWebservice.deploy_configuration(cpu_cores = 1, memory_gb = 2, auth_enabled = True, enable_app_insights=True)`
 
-![logs_from_score](img\logs_from_score.png)![Endpoint_logs](img\Endpoint_logs.png)
+![logs_from_score](img/logs_from_score.png)![Endpoint_logs](img/Endpoint_logs.png)
 
 ![app_insights_log](img/app_insights_log.png)
 
