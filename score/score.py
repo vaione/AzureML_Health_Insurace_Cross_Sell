@@ -10,7 +10,7 @@ def init():
     global scaler, xgb_model
     model_path = Model.get_model_path('Health_XGBoost_HD')
     #scaler = joblib.load('./scaler.pkl')
-    xgb_model = joblib.load(f"{model_path}/hd_model_joblib.joblib")
+    xgb_model = joblib.load(f"{model_path}/saved_model")
     #Print statement for appinsights custom traces:
     print ("model initialized" + time.strftime("%H:%M:%S"))
 

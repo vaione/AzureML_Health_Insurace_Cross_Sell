@@ -1,0 +1,15 @@
+name: XGBoost
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip==19.2.3
+  - nb_conda_kernels==2.2.2
+  - pandas
+  - scikit-learn
+  - xgboost
+  - joblib
+  - pip:
+    - prompt_toolkit==2.0.9
+    - azure-cli==2.0.77
+    - azureml-sdk

@@ -61,11 +61,11 @@ def main():
         os.makedirs(args.saved_model)
     if not os.path.isdir(args.onnx_model):
         os.makedirs(args.onnx_model)
-    if not os.path.isdir("./output/"):
-        os.makedirs("./output/")
-    joblib.dump(model, f"{args.saved_model}/hd_model_joblib.joblib")
-    #model.save_model('./output/hd_model_json.json')
-    joblib.dump(model, "./output/hd_model_joblib.joblib")
+    if not os.path.isdir("./outputs/model"):
+        os.makedirs("./outputs/model")
+    joblib.dump(model, f"{args.saved_model}/hd_model_joblib.joblib.dat")
+
+    joblib.dump(model, "./outputs/model/hd_model_joblib.joblib.dat")
     
     num_features = 10
     initial_type = [('feature_input', FloatTensorType([1, num_features]))]
