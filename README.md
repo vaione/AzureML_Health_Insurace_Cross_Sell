@@ -160,7 +160,7 @@ Based on experience, the hyperparameters I choose to search over was:
 
 #### Run-details
 
-![](img\Run_details.png)
+![](img/Run_details.png)
 
 #### Results
 
@@ -169,8 +169,8 @@ The best performing model has an accuracy of 90.57%.
 The hyperparameters are:
 
 - **Learning rate:** 0.05
-- **n_estimators: ** 1200
-- **Max_depth:** 20
+- **n_estimators: ** 1800
+- **Max_depth:** 24
 - **Subsample:** 0.9
 - **Colsample_bytree:** 0.9
 
@@ -178,9 +178,9 @@ The hyperparameters are:
 
 #### Best hyperdrive model
 
-![hyperdrive_models](img\hyperdrive_models.png)
+![hyperdrive_models](img/hyperdrive_models.png)
 
-![best_model_ui](img\best_model_ui.png)
+![best_model_ui](img/best_model_ui.png)
 
 
 
@@ -196,9 +196,9 @@ Finally I could deploy my model, which took about 10 minutes. When ready I check
 
 I was time to test the published endpoint. I retrieved a key for authorization, selected my test data and sent a Json request to the endpoint with my test data to verify the service was running, could consume the input and send a prediction back.
 
-![model_deployment](img\model_deployment.png) 
+![model_deployment](img/model_deployment.png) 
 
-![test_webservice](img\test_webservice.png)
+![test_webservice](img/test_webservice.png)
 
 
 
