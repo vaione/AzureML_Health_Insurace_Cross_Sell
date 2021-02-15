@@ -64,7 +64,7 @@ The dataset includes 11 features and a binary label (1/0). The dataset has 381.1
 
 **Features**
 
-- **id: ** id number of customer. But as it is starting at 1 and continuous we will use this as our dataset index.
+- **id:** id number of customer. But as it is starting at 1 and continuous we will use this as our dataset index.
 
 - **Gender:** *Categorical*: Male or female
 
@@ -201,13 +201,6 @@ I was time to test the published endpoint. I retrieved a key for authorization, 
 ![test_webservice](img/test_webservice.png)
 
 
-
-## Screen Recording
-
-https://youtu.be/xPH9KxqU5Pc
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
 
 ## Standout tasks done
 To challenge myself I also made the following extra steps:
